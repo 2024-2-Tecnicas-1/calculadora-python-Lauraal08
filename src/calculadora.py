@@ -13,8 +13,13 @@ def calcular(numero1, numero2, operacion):
         case '/':
             # Operación división
             respuesta = numero1 / numero2
+        case '^':
+            respuesta = numero1 ** numero2
+        case '%':
+            respuesta = numero1 % numero2
         case _:
             raise ValueError("Operación inválida.")
+                
 
         # TODO: DEBES COLOCAR TU CÓDIGO AQUÍ# TODO: DEBES CREAR AQUÍ LOS CASES PARA LA OPERACIÓN DE LA POTENCIA Y EL MÓDULO, COMPROBANDO LOS SÍMBOLOS ^ Y %.
 
